@@ -93,7 +93,8 @@ void ProcessingThread::run()
         ////////////////////////// ////////
 
         // Save processing time
-        processingTime=t.elapsed();
+        static QElapsedTimer t;
+        processingTime= t.elapsed();
         // Start timer (used to calculate processing rate)
         t.start();
 

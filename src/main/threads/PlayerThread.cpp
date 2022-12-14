@@ -71,7 +71,7 @@ void PlayerThread::run()
     // The standard delay time to keep FPS playing rate without processing time
     double delay = 1000.0/fps;
     qDebug() << "Starting player thread...";
-    QTime mTime;
+    QElapsedTimer mTime;
 
     /////////////////////////////////////
     /// Stop thread if doStop=TRUE /////
@@ -87,6 +87,7 @@ void PlayerThread::run()
         }
 
         // Save process time
+        static QElapsedTimer t;
         processingTime = t.elapsed();
         // Start timer
         t.start();
@@ -205,6 +206,7 @@ void PlayerThread::run()
             emit origFrame(originalFrame);
 
         // Update statistics
+        
         updateFPS(processingTime);
         statsData.nFramesProcessed = currentWriteIndex;
         // Inform GUI about updatet statistics

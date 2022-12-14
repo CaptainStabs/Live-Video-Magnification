@@ -31,6 +31,7 @@
 #include <QtCore/QThread>
 #include <QMessageBox>
 #include <QDebug>
+#include <QValidator>
 // Local
 #include "main/other/Config.h"
 // OpenCV

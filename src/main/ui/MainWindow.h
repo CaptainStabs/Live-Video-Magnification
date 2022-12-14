@@ -31,6 +31,7 @@
 #include <QShortcut>
 #include <QLabel>
 #include <QMessageBox>
+#include <QActionGroup>
 #include <QUrl>
 // Local
 #include "main/ui/CameraConnectDialog.h"

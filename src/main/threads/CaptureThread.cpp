@@ -62,7 +62,8 @@ void CaptureThread::run()
         ////////////////////////// ////////
 
         // Save capture time
-        captureTime=t.elapsed();
+        static QElapsedTimer t;
+        captureTime= t.elapsed();
         // Start timer (used to calculate capture rate)
         t.start();
 

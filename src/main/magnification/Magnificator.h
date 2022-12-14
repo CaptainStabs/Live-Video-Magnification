@@ -33,6 +33,9 @@
 #include "opencv2/core/core.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
+#include "opencv2/core/mat.hpp"
+#include "C:/Users/adria/Downloads/opencv/build/include/opencv2/core/mat.hpp"
+
 // Local
 #include "main/magnification/SpatialFilter.h"
 #include "main/magnification/TemporalFilter.h"
