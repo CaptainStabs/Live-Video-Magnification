@@ -13,7 +13,7 @@ An OpenCV/Qt based realtime application for Eulerian Video Magnification. Works 
 *(Un-)Wanted artifacts from a realtime motion magnified camerastream. The strong b/w areas around torso and head are resulting from a fast backwards movement and excessive amplification. The white points (the ones bigger than the noise) on the left side are awhirled dust particles, not visible in the original camera source.*
 
 ### Dependencies
-- [Qt](http://qt-project.org/) >= 5.0
+- [Qt](http://qt-project.org/) >= 6.0
 - [OpenCV](http://opencv.org/) >= 2.0 (< 3.0 ? -> not tested yet)
 
 ### License
