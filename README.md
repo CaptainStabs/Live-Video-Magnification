@@ -14,7 +14,7 @@ An OpenCV/Qt based realtime application for Eulerian Video Magnification. Works 
 
 ### Dependencies
 - [Qt](http://qt-project.org/) >= 6.0
-- [OpenCV](http://opencv.org/) >= 2.0 (< 3.0 ? -> not tested yet)
+- [OpenCV](http://opencv.org/) >= 2.0 (< 3.0 ? -> not tested yet) Must be built with MinGW
 
 ### License
 This application is licensed under GPLv3, read the [LICENSE](LICENSE).
